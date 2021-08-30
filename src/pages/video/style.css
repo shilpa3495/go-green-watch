@@ -1,0 +1,7 @@
+.react-player{
+    height: calc(70vw * (9/16)) !important;
+}
+
+.react-player iframe{
+    border-radius: 0.9rem;
+}

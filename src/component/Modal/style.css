@@ -1,0 +1,39 @@
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-close-icon {
+  width: 1.8vh;
+  height: 1.8vh;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  fill: var(--grey-color);
+}
+.modal-close-icon:hover {
+  filter: brightness(150%);
+}
+
+.modal-checkbox-container {
+  display: flex;
+  column-gap: 0.6rem;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--dark-color);
+  margin-top: 10px;
+}
+
+.video-modal-footer {
+  justify-content: unset;
+  flex-direction: column;
+}
+
+.modal-add-create-playlist-button {
+  padding: 0;
+}
+
+.modal-create-playlist-button {
+  margin-left: auto;
+  margin-top: 0.6rem;
+}

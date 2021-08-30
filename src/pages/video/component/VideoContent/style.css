@@ -1,0 +1,63 @@
+.video-channel-info,
+.video-title-container,
+.video-icon-button {
+  align-items: center;
+}
+
+.video-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.video-channel-info,
+.video-view-time-text,
+.video-title-container,
+.video-icon-container,
+.video-icon-button {
+  display: flex;
+}
+
+.video-title-container {
+  justify-content: space-between;
+}
+
+.video-view-text::after {
+  content: ".";
+  margin: 0 0.35rem;
+}
+
+.video-channel-info,
+.video-icon-container,
+.video-icon-button {
+  column-gap: 0.6rem;
+}
+.video-like-icon,
+.video-watch-later-icon,
+.video-playlist-icon {
+  fill: var(--grey-color);
+}
+
+.video-icon-button-active .video-like-icon,
+.video-icon-button-active .video-watch-later-icon {
+  fill: var(--primary-color);
+}
+
+.video-icon-button {
+  color: var(--grey-color);
+  font-family: "Roboto-Bold";
+  transition: all 0.3s ease-in;
+}
+
+.video-icon-button-active {
+  color: var(--primary-color);
+}
+
+.video-icon-button:hover {
+  filter: brightness(150%);
+}
+
+.video-title,
+.video-channel-info h4 {
+  color: var(--dark-color);
+}

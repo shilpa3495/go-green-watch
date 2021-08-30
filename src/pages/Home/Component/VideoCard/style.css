@@ -1,0 +1,26 @@
+.video-card-content-container,
+.video-card-view-time-container {
+  display: flex;
+}
+.video-card-content-container {
+  column-gap: 0.6rem;
+  padding-top: 0.6rem;
+}
+
+.video-card-heading,
+.video-card-description {
+  margin-top: 0;
+}
+
+.video-card-view-text::after {
+  content: ".";
+  margin: 0 0.3rem;
+}
+
+.video-card-heading {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 2.3rem;
+}

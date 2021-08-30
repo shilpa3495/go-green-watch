@@ -1,0 +1,23 @@
+.list-card-image {
+  width: 30.2vh;
+  height: 13.2vh;
+  border-radius: 0.3rem;
+}
+
+.list-card-container {
+  column-gap: 1.2rem;
+}
+
+.stacked-list-link {
+  text-decoration: none;
+}
+
+.stacked-list-description {
+  width: calc(100% - 30.2vh);
+}
+
+.stacked-list-remove-button {
+  display: block;
+  margin-left: auto;
+  padding: 0;
+}
